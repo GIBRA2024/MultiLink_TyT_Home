@@ -1,10 +1,8 @@
 function descargarContacto() {
     const vcardData = `BEGIN:VCARD
 VERSION:3.0
-FN:Paula Jaramillo
-TEL:+57 3052500042
-EMAIL:ventas@guajiraamano.com
-NOTE: Guajira a Mano
+FN:T&T Home
+TEL:+57 3227598775
 END:VCARD`;
 
     const blob = new Blob([vcardData], { type: 'text/vcard' });
